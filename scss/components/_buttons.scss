@@ -3,7 +3,7 @@
 @use '../components/mixins' as *;
 
 .btn-rounded {
-    //BUTTONS CUSTOMIZATION
+    //BUTTONS CUSTOMIZATIONS
     //setting the position to relative
     //targeting small device to display none
     @include media-breakpoint-down(sm) {
