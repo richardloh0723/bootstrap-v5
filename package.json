@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-v5",
+  "version": "1.0.0",
+  "description": "Learning bootstrap v5 and SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/richardloh0723/bootstrap-v5.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Richard Loh",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
