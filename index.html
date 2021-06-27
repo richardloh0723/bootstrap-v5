@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Learning Bootstrap v5 with sass</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.css">
 </head>
 <body>
     <!-- START THE NAVBAR SECTIONS -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark menu">
         <!-- version 5: container must be within the navbar -->
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -42,10 +43,47 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <button type="button" class="rounded-pill">0182641362</button>
+            <button type="button" class="rounded-pill btn-rounded">
+              0182641362
+              <span>
+                <i class="fas fa-phone-alt"></i>
+              </span>
+            </button>
           </div>
         </div>
       </nav>
+
+      <!-- START THE INTRO SECTION -->
+      <section id="home" class="intro-section">
+        <div class="container">
+          <div class="row">
+            <!-- first column (hey! im richard)-->
+            <div class="col-md-6 intros">
+              <h1 class="display-2">
+                <!-- start the heading with introduction -->
+                <span class="display-2--intro">
+                  Hey!, I'm Richard
+                </span>
+                <span class="display-2--description">
+                  This is a multi-purpose responsive layout created with
+                  Bootstrap v5. (Aloha welcome to my personal website!)
+                </span>
+              </h1>
+              <!-- block of button element copied from nav section -->
+              <button type="button" class="rounded-pill btn-rounded">
+                Get in Touch
+                <span>
+                  <!-- right arrow button -->
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+              </button>
+            </div>
+            <!-- second column -->
+            <div class="col-md-6 intros"></div>
+          </div>
+        </div>
+      </section>
+      
     <script src="./assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
